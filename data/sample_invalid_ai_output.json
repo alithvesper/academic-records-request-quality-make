@@ -1,1 +1,9 @@
-
+{
+  "ai_category": "transfer_credit_review",
+  "ai_requested_change": "",
+  "ai_summary": "",
+  "ai_confidence": 0.35,
+  "ai_ambiguous": true,
+  "ai_review_reason": "insufficient_or_ambiguous_information",
+  "ai_contains_policy_decision": true
+}
