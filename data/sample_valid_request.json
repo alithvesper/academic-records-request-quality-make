@@ -1,1 +1,22 @@
-
+{
+  "request_id": "REQ-2001",
+  "submitted_at": "2026-10-15T09:00:00-07:00",
+  "requester_token": "SYN-STU-001",
+  "request_type": "record_correction",
+  "program_code": "BSN-2026",
+  "campus_code": "CAMP-A",
+  "requested_change": "Correct misspelled synthetic program name",
+  "supporting_items": [
+    {
+      "item_id": "ITEM-2001",
+      "item_type": "identification_document",
+      "item_status": "received"
+    },
+    {
+      "item_id": "ITEM-2002",
+      "item_type": "enrollment_record",
+      "item_status": "received"
+    }
+  ],
+  "authorization_status": "confirmed"
+}
