@@ -1,1 +1,11 @@
-
+{
+  "request_id": "REQ-2002",
+  "submitted_at": "2026-10-15T09:05:00-07:00",
+  "requester_token": "SYN-STU-002",
+  "request_type": "enrollment_status_update",
+  "program_code": "BSN-2026",
+  "campus_code": "CAMP-A",
+  "requested_change": "Update synthetic enrollment status record",
+  "supporting_items": [],
+  "authorization_status": "confirmed"
+}
