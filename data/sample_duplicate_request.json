@@ -1,1 +1,17 @@
-
+{
+  "request_id": "REQ-2005",
+  "submitted_at": "2026-10-15T09:20:00-07:00",
+  "requester_token": "SYN-STU-004",
+  "request_type": "document_request",
+  "program_code": "BSN-2026",
+  "campus_code": "CAMP-A",
+  "requested_change": "Request synthetic enrollment verification document",
+  "supporting_items": [
+    {
+      "item_id": "ITEM-2005",
+      "item_type": "identification_document",
+      "item_status": "received"
+    }
+  ],
+  "authorization_status": "confirmed"
+}
