@@ -1,1 +1,9 @@
-
+request_id,submitted_at,requester_token,request_type,program_code,campus_code,requested_change,supporting_item_count,supporting_item_types,authorization_status,duplicate_of,expected_route,expected_status,notes
+REQ-2001,2026-10-15T09:00:00-07:00,SYN-STU-001,record_correction,BSN-2026,CAMP-A,Correct misspelled synthetic program name,2,identification_document|enrollment_record,confirmed,,records_office_queue,ready,valid complete request
+REQ-2002,2026-10-15T09:05:00-07:00,SYN-STU-002,enrollment_status_update,BSN-2026,CAMP-A,Update synthetic enrollment status record,0,,confirmed,,review_queue,needs_review,missing supporting items
+REQ-2003,2026-10-15T09:10:00-07:00,SYN-STU-003,transfer_credit_review,BSN-2026,CAMP-B,Request review of synthetic transfer credit documentation,2,transcript|supporting_statement,pending,,review_queue,needs_review,authorization not confirmed
+REQ-2004,2026-10-15T09:15:00-07:00,SYN-STU-004,document_request,BSN-2026,CAMP-A,Request synthetic enrollment verification document,1,identification_document,confirmed,,document_services_queue,ready,valid complete request
+REQ-2005,2026-10-15T09:20:00-07:00,SYN-STU-004,document_request,BSN-2026,CAMP-A,Request synthetic enrollment verification document,1,identification_document,confirmed,REQ-2004,duplicate_queue,duplicate,duplicate key matches prior request
+REQ-2006,2026-10-15T09:25:00-07:00,SYN-STU-006,,BSN-2026,CAMP-A,Request synthetic academic record update,1,identification_document,confirmed,,review_queue,needs_review,missing request type
+REQ-2007,2026-10-15T09:30:00-07:00,SYN-STU-007,program_change_request,BSN-2026,CAMP-B,Request change of synthetic program concentration,2,program_form|supporting_statement,confirmed,,program_change_queue,ready,valid complete request
+REQ-2008,2026-10-15T09:35:00-07:00,SYN-STU-008,record_correction,BSN-2026,CAMP-A,Correct synthetic record but requester states record was falsified,2,identification_document|enrollment_record,confirmed,,review_queue,needs_review,sensitive or high-risk language
